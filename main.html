@@ -10,22 +10,22 @@
 <body>
 	<h1>Feedback Form</h1>
 <form method="post">
-	<label>
+	<label for="name"> Name: </label>
 		<input id="name" type="text" minlength="3" maxlength="50" required placeholder="Name">
-    </label>
+    
 <br><br>
-	<label>
-		Portfolio : <input  id="portfolio" type="url" required placeholder="URL">
-	</label>
-<br>
-	<label>
+	<label for="portfolio"> Portfolio: </label>
+		 <input  id="portfolio" type="url" required placeholder="URL">
+	<br><br>
+	
+	<label for ="favcolor"> Favorite Color:</label>
 		<input id="favcolor" type="color" required>
-	</label>
-<br>
-	<label>
+	
+<br><br>
+	<label for ="range"> Likeness</label>
 		<input id="likeness" type="range" min="1" max="100" required>
-	</label>
-	<br>
+	
+	<br><br>
 	<input type="submit" value="Submit">
 </form>	
 </body>
